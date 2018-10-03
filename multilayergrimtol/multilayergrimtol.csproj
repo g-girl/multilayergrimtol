@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="GrimtolApi">
+      <HintPath>..\GrimtolApi\bin\Debug\netcoreapp2.1\GrimtolApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
