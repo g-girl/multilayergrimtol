@@ -16,7 +16,7 @@ namespace GrimtolApi
 
         public string Command(string input)
         {
-            string[] choices = input.Split();
+            string[] choices = input.ToLower().Split(" ");
             string com = "";
             string option = "";
             string res = "Invalid Input";
@@ -27,6 +27,7 @@ namespace GrimtolApi
                     com = choices[0];
                     break;
                 case 2:
+                    com = choices[0];
                     option = choices[1];
                     break;
                 default:

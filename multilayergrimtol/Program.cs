@@ -10,7 +10,7 @@ namespace multilayergrimtol
             GameApi gameApi = new GameApi();
             while(gameApi.GetGameId().Equals(""))
             {
-                Console.WriteLine("Would you like to Load a Game or Start a new Game?(Load / Start Slot Number(1, 2, 3, 4))");
+                Console.WriteLine("Would you like to Load a Game or Start a new Game?(Load / New Slot Number(1, 2, 3, 4))");
                 Console.WriteLine(gameApi.Command(Console.ReadLine()));
                 while(gameApi.GetGameId() != "")
                 {
